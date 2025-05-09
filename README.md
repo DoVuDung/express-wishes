@@ -1,13 +1,18 @@
 ```
 /bun-wishes
   ├── .env
-  ├── app.js
-  ├── models/
-  │    └── wish.js
-  ├── routes/
-  │    └── wishRoutes.js
-  ├── controllers/
-  │    └── wishController.js
-  └── package.json
+  ├── package.json
+  ├── tsconfig.json
+  ├── /api
+  │    └── wishes.ts
+  ├── /models
+  │    └── wish.ts
+  ├── /controllers
+  │    └── wishController.ts
+  ├── vercel.json
+  ├── swagger.ts
+
 
 ```
+
+

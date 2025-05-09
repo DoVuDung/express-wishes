@@ -93,7 +93,7 @@ router.post('/', async (req, res) => {
  *           application/json:
  *             schema:
  *               $ref: '#/components/schemas/Wish'
- *       404:
+ *       404: 
  *         description: Wish not found
  */
 // router.put('/:id', async (req, res) => {
